@@ -138,6 +138,8 @@ LA32r：精简
 + [一生一芯视频合集](https://space.bilibili.com/2107852263/channel/collectiondetail?sid=690279)
 + 《超标量处理器设计》
 + 《计算机系统设计（下册）：基于 FPGA 的 SOC 设计与实现》
++ [spinalHDL 文档](https://spinalhdl.github.io/SpinalDoc-RTD/master/index.html)
++ 龙芯将开源 3 个基于 spinalHDL 的 CPU 核
 
 ----
 
