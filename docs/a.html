@@ -15,17 +15,67 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"># Title
-
-- Point 1
-- Point 2
+      <div class="slides"><section  data-markdown><script type="text/template"># “龙芯杯”大赛介绍
 </script></section><section  data-markdown><script type="text/template">
-## Second slide
+- 大赛简介
+- 大赛赛制
+- 大赛趋势
+- 能力要求
+- 加分情况
+</script></section><section ><section data-markdown><script type="text/template">
+## 大赛简介
+</script></section><section data-markdown><script type="text/template">
+基于指定的指令集构建**完整的计算机系统**。
+</script></section><section data-markdown><script type="text/template">
+分为*硬件系统搭建*以及*系统软件移植*两个部分：
 
-> Best quote ever.
+- 硬件系统
+	- CPU 微结构设计与性能调优
+	- 外设控制器与片上互联结构设计
+- 软件系统
+	- 固件适配移植
+	- 操作系统适配移植
+</script></section><section data-markdown><script type="text/template">
+最终的评判标准包括但不限于：
 
-<aside class="notes"><p>speaker notes FTW!</p>
-</aside></script></section></div>
++ CPU 的运行性能
++ 技术自主性
++ 计算机系统的完整性与稳定性
+</script></section></section><section ><section data-markdown><script type="text/template">
+## 大赛赛制
+</script></section><section data-markdown><script type="text/template">
+|名称|参赛人数|指令集|进入决赛？|
+|:---:|:---:|:---:|:---:|
+|个人赛|1|MIPS|-|
+|团队赛|2～4|MIPS|CPU 具有较好性能|
+|LoongArch 挑战赛|2～4|LoongArch|启动 Linux|
+</script></section><section data-markdown><script type="text/template">
+MIPS：延迟槽（挺烦的）
+
++ 取指
++ 分支预测
++ 例外处理
+</script></section><section data-markdown><script type="text/template">
+LA32r：精简
+
++ 没有延迟槽
++ 特权态简单
++ 没有非对齐访存指令
+</script></section></section><section ><section data-markdown><script type="text/template">
+## 大赛趋势
+</script></section><section data-markdown><script type="text/template">
++ 近年来的特等奖、一等奖几乎被**清华大学**包揽
++ 团队赛决赛门槛**越来越高**
++ LA 赛道决赛要求**启动 Linux**
+</script></section><section data-markdown><script type="text/template">
+### 特等奖
+
++ 微架构：乱序多发射
++ 操作系统：运行**完整 Linux**
++ SOC：支持除 USB 外全部外设
+</script></section><section data-markdown><script type="text/template">
+![](./attachments/ZenCove-peripheral.png)
+</script></section></section></div>
     </div>
 
     <script src="./dist/reveal.js"></script>
